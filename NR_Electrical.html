@@ -1,0 +1,120 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width">
+    <script src="ds:/Sys/app.js"></script>
+</head>
+	
+<script>
+    //Called after application is started.
+    function OnStart()
+    {
+        app.ShowPopup( "Welcome user" );
+    }
+</script>
+
+<style>
+*{
+margin: 0;
+padding: 0;
+}
+	body { background-color: #ffffff; }
+    .hello 
+    { 
+        font-size: 42; 
+        width: 100%;
+        margin-top: 2em;
+        text-align: center;
+        color: blue;
+    }
+body{
+background: linear-gradient(to top, rgba(0.3,0.3,0.3,0.3)50%,rgba(0.3,0.3,0.3,0.3)50%), url("Img/frugal.jpg");
+background-position: center;
+background-size: cover;
+
+background-repeat: no-repeat;
+}
+button{
+border-radius: 20px;
+height: 40px;
+border: none;
+opacity: 0.8;
+outline: none;
+background: white;
+color: black;
+}
+button:hover{
+background-color: black;
+opacity:0.5;
+color: white;
+}
+p{
+color: black;
+font-size: 14px;
+}
+.text{
+padding-top: 100px;
+color: white;
+padding-bottom: 60px;
+}
+footer{
+position: absolute;
+margin-bottom: 3px;
+width: 100%;
+bottom: 0;
+text-align: center;
+}
+
+.start{
+height: 200px;
+width: 200px;
+border: 1px solid black;
+border-radius: 50%;
+display: flex;
+border: none;
+color: grey;
+opacity: 0.5;
+justify-content: center;
+align-itams: center;
+background: black;
+box-shadow: 0.5px 2px 2px 0.5px;
+margin-left: 20%;
+}
+.start{
+margin-top: 30px;
+}
+.letter{
+font-size: 50px;
+
+color: white;
+margin-top: 65.5px;
+
+}
+.letter:active{
+color:black;
+}
+.start:active{
+color: black;
+height:190px;
+width: 190px;
+background: white;
+opacity: 0.5;
+}
+a{
+text-decoration: none;
+
+}
+
+.copy{
+color: white;
+}
+
+</style>
+
+<body onload="app.Start()">
+
+	<div class=hello> 
+ 
+<button>NR TECHNOLOGIES</button>
+<p class="text">Welcome to NR TENOLOGIES. <br>This site connects 
+employees to clients & clients to employees.</p>
+<a href="page.html"><div class="start"><span class="letter">START</span></div></a>
